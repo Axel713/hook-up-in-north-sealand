@@ -1,119 +1,157 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous" />
-    <link rel="stylesheet" href="assets/css/style.css">
-    <title>Hook-up in Nord Sealand</title>
-</head>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+			integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="assets/css/style.css" />
+		<title>Hook-up in Nord Sealand</title>
+	</head>
 
-<body>
-    <!-- Navigation bar. Code based on w3schools.com "How To - Responsive Top Navigation" tutorial. -->
-    <header>
-        <nav class="navbar">
-            <ul class="navmenu" id="myNavmenu">
-                <li>
-                    <i class="fas fa-fish fa-4x"></i>
-                </li>
-                <li>
-                    <a href="#" class="active">Home</a>
-                </li>
-                <li>
-                    <a href="#">Legal Requirements and Criterias</a>
-                </li>
-                <li>
-                    <a href="#">Where to Go Fishing</a>
-                </li>
-                <li>
-                    <a href="#">Can I Take my Catch Home?</a>
-                </li>
-                <li>
-                    <a href="javascript:void(0);" class="icon" onclick="navbar()">
-                        <i class="fas fa-bars"></i>
-                    </a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-    <!-- /Navigation bar -->
+	<body>
+		<!-- Navigation bar. Code based on w3schools.com "How To - Responsive Top Navigation" tutorial. -->
+		<header>
+			<nav class="navbar">
+				<ul class="navmenu" id="myNavmenu">
+					<li>
+						<i class="fas fa-fish fa-4x"></i>
+					</li>
+					<li>
+						<a href="#" class="active">Home</a>
+					</li>
+					<li>
+						<a href="#">Legal Requirements and Criterias</a>
+					</li>
+					<li>
+						<a href="#">Where to Go Fishing</a>
+					</li>
+					<li>
+						<a href="#">Can I Take my Catch Home?</a>
+					</li>
+					<li>
+						<a
+							href="javascript:void(0);"
+							class="icon"
+							onclick="assets/js/navigation.js()"
+						>
+							<i class="fas fa-bars"></i>
+						</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+		<!-- /Navigation bar -->
 
-    <!-- Site name -->
-    <div>
-        <h1>Hook-up in North Sealand</h1>
-    </div>
-    <!-- /Site name -->
+		<!-- Site name -->
+		<div>
+			<h1>Hook-up in North Sealand</h1>
+		</div>
+		<!-- /Site name -->
 
-    <!-- Hero image -->
-    <div>
-        <img src="assets/images/hook-up-hero-image.jpg" alt="Image of a man fishing in the sunset">
-    </div>
-    <!-- /Hero image -->
+		<!-- Hero image -->
+		<div>
+			<img
+				src="assets/images/hook-up-hero-image.jpg"
+				alt="Image of a man fishing in the sunset"
+			/>
+		</div>
+		<!-- /Hero image -->
 
-    <!-- Fishing in North Sealand Section -->
-    <div>
-        <h2>
-            Fishing in North Sealand
-        </h2>
-        <article>
-            Fishing in North Sealand as well as any other parts of Denmark, you need to be aware of some essential legal requirements as well as some specifics.
-        </article>
-    </div>
-    <!-- /Fishing in North Sealand Section -->
+		<!-- Fishing in North Sealand Section -->
+		<div>
+			<h2>Fishing in North Sealand</h2>
+			<article>
+				Fishing in North Sealand as well as any other parts of Denmark,
+				you need to be aware of some essential legal requirements as
+				well as some specifics.
+			</article>
+		</div>
+		<!-- /Fishing in North Sealand Section -->
 
-    <!-- Legal Requirements and Criterias Section -->
-    <div>
-        <article>
-            <h2>Legal Requirements and Criterias</h2>
-            <div>
-                <i class="fas fa-balance-scale fa-lg"></i>
-            </div>
-        </article>
-    </div>
-    <!-- /Legal Requirements and Criterias Section -->
+		<!-- Collapsible sections -->
+		<!-- Legal Requirements and Criterias Section -->
+		<div>
+			<h2>Legal Requirements and Criterias</h2>
+			<div class="colla-sect-cont">
+				<article>
+					<div>
+						<button class="colla-sect">
+							<i class="fas fa-balance-scale fa-lg"></i>
+						</button>
+					</div>
+				</article>
+			</div>
+		</div>
+		<!-- /Legal Requirements and Criterias Section -->
 
-    <!-- Where to Go Fishing Section -->
-    <div>
-        <article>
-            <h2>Where to go Fishing</h2>
-            <div>
-                <i class="fas fa-map-marked-alt fa-lg"></i>
-            </div>
-        </article>
-    </div>
-    <!-- /Where to Go Fishing Section -->
+		<!-- Where to Go Fishing Section -->
+		<div>
+			<h2>Where to go Fishing</h2>
+			<div class="colla-sect-cont">
+				<i class="fas fa-map-marked-alt fa-lg"></i>
+			</div>
+			<div id="map"></div>
+		</div>
+		<!-- /Where to Go Fishing Section -->
 
-    <!-- Can I take my Catch Home Section -->
-    <div>
-        <article>
-            <h2>Can I take my Catch Home?</h2>
-            <div>
-                <i class="fas fa-check-circle fa-lg"></i>
-            </div>
-        </article>
-    </div>
-    <!-- /Can I take my Catch Home Section -->
+		<!-- Can I take my Catch Home Section -->
+		<div>
+			<article>
+				<h2>Can I take my Catch Home?</h2>
+				<div>
+					<i class="fas fa-check-circle fa-lg"></i>
+				</div>
+			</article>
+		</div>
+		<!-- /Can I take my Catch Home Section -->
 
-    <!-- Footer -->
-    <footer>
-        <div>
-            <div>
-                <div>
-                    <i class="far fa-copyright fa-2x foot-ico-cop"></i>
-                </div>
-                <div>
-                    <p class="foot-comp-nam-1"><strong>Fishing in North Sealand</strong></p>
-                    <p class="foot-comp-nam-2">All rights reserved</p>
-                </div>
-                <div>
-                    <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-square fa-lg"></i></a>
-                    <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram-square fa-lg"></i></a>
-                    <a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube-square fa-lg"></i></a>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <!-- /Footer -->
-
-</body>
+		<!-- Footer -->
+		<footer>
+			<div>
+				<div>
+					<div>
+						<i class="far fa-copyright fa-2x foot-ico-cop"></i>
+					</div>
+					<div>
+						<p class="foot-comp-nam-1">
+							<strong>Fishing in North Sealand</strong>
+						</p>
+						<p class="foot-comp-nam-2">All rights reserved</p>
+					</div>
+					<div>
+						<a href="https://www.facebook.com" target="_blank"
+							><i class="fab fa-facebook-square fa-lg"></i
+						></a>
+						<a href="https://www.instagram.com" target="_blank"
+							><i class="fab fa-instagram-square fa-lg"></i
+						></a>
+						<a href="https://www.youtube.com" target="_blank"
+							><i class="fab fa-youtube-square fa-lg"></i
+						></a>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- /Footer -->
+		<script>
+			function initMap() {
+				var map = new google.maps.Map(document.getElementById("map"), {
+					zoom: 6,
+					center: {
+						lat: 56.09839,
+						lng: 11.060209
+					}
+				});
+			}
+		</script>
+		<script
+			defer
+			src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBlKucCcaBr9LTVcXy08G6ut-nuPXEKpZs&callback=initMap"
+		></script>
+	</body>
 </html>
