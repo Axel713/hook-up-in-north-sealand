@@ -138,44 +138,15 @@
 			</div>
 		</footer>
 		<!-- /Footer -->
-		<script>
-			function initMap() {
-				const map = new google.maps.Map(
-					document.getElementById("map"),
-					{
-						zoom: 6,
-						center: {
-							lat: 56.09839,
-							lng: 11.060209
-						}
-					}
-				);
 
-				const labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-
-				const locations = [
-					{ lat: 56.00389, lng: 12.37755 },
-					{ lat: 55.9759, lng: 12.11008 }
-				];
-				// Esrum sø, Arresø
-
-				const markers = locations.map(function (location, i) {
-					return new google.maps.Marker({
-						position: location,
-						label: labels[i % labels.length]
-					});
-				});
-
-				new MarkerClusterer(map, markers, {
-					imagePath:
-						"https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m"
-				});
-			}
-		</script>
 		<script src="https://unpkg.com/@googlemaps/markerclustererplus/dist/index.min.js"></script>
 		<script
 			defer
 			src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBlKucCcaBr9LTVcXy08G6ut-nuPXEKpZs&callback=initMap"
 		></script>
+
+		<!-- Google Maps script -->
+		<script src="assets/js/maps.js"></script>
+		<!-- /Google Maps script -->
 	</body>
 </html>
