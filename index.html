@@ -37,7 +37,7 @@
 						<a
 							href="javascript:void(0);"
 							class="icon"
-							onclick="assets/js/navigation.js()"
+							onclick="navbar()"
 						>
 							<i class="fas fa-bars"></i>
 						</a>
@@ -126,8 +126,8 @@
 					name="locationType"
 					id="lake"
 					value="lake"
-					onclick="mapLakeSelect();"
 					checked
+					onclick="initMap()"
 				/>
 				<label for="sea">Sea</label>
 				<input
@@ -135,7 +135,7 @@
 					name="locationType"
 					id="sea"
 					value="sea"
-					onclick="mapSeaSelect();"
+					onclick="initMap()"
 				/>
 				<label for="forbidden">Forbidden</label>
 				<input
@@ -143,7 +143,7 @@
 					name="locationType"
 					id="forbidden"
 					value="forbidden"
-					onclick="mapForbiddenSelect();"
+					onclick="initMap()"
 				/>
 			</div>
 			<div id="map"></div>
@@ -189,6 +189,10 @@
 			</div>
 		</footer>
 		<!-- /Footer -->
+
+		<!-- Navigation bar script -->
+		<script src="assets/js/navigation.js"></script>
+		<!-- /Navigation bar script -->
 
 		<!-- Google Maps Marker script -->
 		<script src="https://unpkg.com/@googlemaps/markerclustererplus/dist/index.min.js"></script>
