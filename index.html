@@ -152,12 +152,71 @@
 
 		<!-- Can I take my Catch Home Section -->
 		<div>
-			<article>
-				<h2>Can I take my Catch Home?</h2>
+			<h2>Can I take my Catch Home?</h2>
+			<div>
+				<i class="fas fa-check-circle fa-lg"></i>
+			</div>
+			<div>
+				<h3>Location</h3>
+				<label for="fishLoc">Choose your location:</label>
+				<select name="fishLoc" id="fishLoc">
+					<option value="lake">Lake</option>
+					<option value="sea">Sea</option>
+				</select>
+			</div>
+			<div>
+				<h3>Today's date</h3>
+				<label for="fishDay">Enter today's day:</label>
+				<input
+					type="number"
+					id="fishDay"
+					name="fishDay"
+					min="1"
+					max="31"
+					value="1"
+				/>
+				<label for="fishMonth">Enter today's month:</label>
+				<input
+					type="number"
+					id="fishMonth"
+					name="fishMonth"
+					min="1"
+					max="12"
+					value="1"
+				/>
+			</div>
+			<div>
+				<h3>Your catch:</h3>
+				<label for="fishSpec">Select fish species:</label>
+				<select name="fishSpec" id="fishSpec">
+					<option value="lavaret">Lavaret</option>
+					<option value="mackerel">Mackerel</option>
+					<option value="perch">Perch</option>
+					<option value="pike">Pike</option>
+					<option value="plaice">Plaice</option>
+				</select>
+			</div>
+			<div>
+				<h3>Catch size</h3>
+				<label for="fishSize">Enter your catch size (cm):</label>
+				<input
+					type="number"
+					id="fishSize"
+					name="fishSize"
+					min="1"
+					max="200"
+					value="1"
+				/>
+			</div>
+			<div>
+				<h3>Verdict</h3>
 				<div>
-					<i class="fas fa-check-circle fa-lg"></i>
+					<i class="fas fa-thumbs-up"> Take it Home!</i>
 				</div>
-			</article>
+				<div>
+					<i class="fas fa-thumbs-down"> Put it Back!</i>
+				</div>
+			</div>
 		</div>
 		<!-- /Can I take my Catch Home Section -->
 
