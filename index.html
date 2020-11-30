@@ -119,6 +119,33 @@
 			<div class="colla-sect-cont">
 				<i class="fas fa-map-marked-alt fa-lg"></i>
 			</div>
+			<div>
+				<label for="lake">Lake</label>
+				<input
+					type="radio"
+					name="locationType"
+					id="lake"
+					value="lake"
+					onclick="mapLakeSelect();"
+					checked
+				/>
+				<label for="sea">Sea</label>
+				<input
+					type="radio"
+					name="locationType"
+					id="sea"
+					value="sea"
+					onclick="mapSeaSelect();"
+				/>
+				<label for="forbidden">Forbidden</label>
+				<input
+					type="radio"
+					name="locationType"
+					id="forbidden"
+					value="forbidden"
+					onclick="mapForbiddenSelect();"
+				/>
+			</div>
 			<div id="map"></div>
 		</div>
 		<!-- /Where to Go Fishing Section -->
