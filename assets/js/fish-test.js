@@ -87,6 +87,29 @@ function fishTest() {
 					//console.log("NOT OK");
 				}
 			}
+
+			// ----------------------------------------------------------------------------- SIZE TEST -----------------------------------------------------------------------------
+			// Access and store filtered fish control size in a variable.
+			const setFishSize = filtFish.size;
+			console.log(setFishSize);
+
+			// Access and store button in a variable.
+			const sizeTestButton = document.getElementById("sizeTestBtn");
+
+			// Button's script to process entered size versus control size (stored in fishData)
+			sizeTestButton.onclick = function () {
+				// Access and record value entered in input field in a variable
+				const fishSize = document.getElementById("fishSize").value;
+
+				// If-else statement to produce verdict
+				if (fishSize >= setFishSize) {
+					document.getElementById("verd-size").innerHTML =
+						"You can keep your fish!";
+				} else {
+					document.getElementById("verd-size").innerHTML =
+						"You must release the fish!";
+				}
+			};
 		}
 	}
 }
