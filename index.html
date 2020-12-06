@@ -17,32 +17,28 @@
 		<!-- Navigation bar. Code based on w3schools.com "How To - Responsive Top Navigation" tutorial. -->
 		<header>
 			<nav class="navbar">
-				<ul class="navmenu" id="myNavmenu">
-					<li>
-						<i class="fas fa-fish fa-4x"></i>
-					</li>
-					<li>
-						<a href="#" class="active">Home</a>
-					</li>
-					<li>
-						<a href="#">Legal Requirements and Criterias</a>
-					</li>
-					<li>
-						<a href="#">Where to Go Fishing</a>
-					</li>
-					<li>
-						<a href="#">Can I Take my Catch Home?</a>
-					</li>
-					<li>
-						<a
-							href="javascript:void(0);"
-							class="icon"
-							onclick="navbar()"
-						>
-							<i class="fas fa-bars"></i>
-						</a>
-					</li>
-				</ul>
+				<div class="brand-logo">
+					<i class="fas fa-fish fa-2x"></i>
+				</div>
+				<a href="#" class="toggle-button">
+					<i class="fas fa-bars fa-2x"></i>
+				</a>
+				<div class="navbar-links">
+					<ul id="myNavmenu" class="navmenu">
+						<li>
+							<a href="#" class="active">Home</a>
+						</li>
+						<li>
+							<a href="#">Legal Requirements</a>
+						</li>
+						<li>
+							<a href="#">Fishing Locations</a>
+						</li>
+						<li>
+							<a href="#">Catch Verification</a>
+						</li>
+					</ul>
+				</div>
 			</nav>
 		</header>
 		<!-- /Navigation bar -->
@@ -57,6 +53,7 @@
 		<div>
 			<img
 				src="assets/images/hook-up-hero-image.jpg"
+				class="hero-image"
 				alt="Image of a man fishing in the sunset"
 			/>
 		</div>
