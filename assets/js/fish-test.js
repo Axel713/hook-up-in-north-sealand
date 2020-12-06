@@ -39,7 +39,7 @@ function fishTest() {
 	const selectedFish = document.getElementById("fishList");
 	const selFishValue = selectedFish.options[selectedFish.selectedIndex].value;
 	// Console log selected value
-	console.log("Selected value drom dropdown list: ", selFishValue);
+	//console.log("Selected value drom dropdown list: ", selFishValue);
 
 	// Access and store fishCat array of objects content in a variable
 	const fishCatVar = fishData.fishCat;
@@ -55,8 +55,8 @@ function fishTest() {
 		if (selFishValue === fishCatVar[i].name) {
 			// Store matching fish in variable
 			const filtFish = fishCatVar[i];
-			console.log(filtFish);
-			console.log(filtFish.seasonStart, filtFish.seasonEnd);
+			//console.log(filtFish);
+			//console.log(filtFish.seasonStart, filtFish.seasonEnd);
 
 			// ----------------------------------------------------------------------------- DATE TEST -----------------------------------------------------------------------------
 			// If conditional statement to process fish without restriced period.
@@ -91,7 +91,7 @@ function fishTest() {
 			// ----------------------------------------------------------------------------- SIZE TEST -----------------------------------------------------------------------------
 			// Access and store filtered fish control size in a variable.
 			const setFishSize = filtFish.size;
-			console.log(setFishSize);
+			//console.log(setFishSize);
 
 			// Access and store button in a variable.
 			const sizeTestButton = document.getElementById("sizeTestBtn");
@@ -103,10 +103,10 @@ function fishTest() {
 
 				// If-else statement to produce verdict
 				if (fishSize >= setFishSize) {
-					document.getElementById("verd-size").innerHTML =
+					document.getElementById("verdict-size").innerHTML =
 						"You can keep your fish!";
 				} else {
-					document.getElementById("verd-size").innerHTML =
+					document.getElementById("verdict-size").innerHTML =
 						"You must release the fish!";
 				}
 			};
