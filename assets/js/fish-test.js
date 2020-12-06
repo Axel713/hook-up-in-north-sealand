@@ -91,11 +91,7 @@ function fishTest() {
 			// ----------------------------------------------------------------------------- SIZE TEST -----------------------------------------------------------------------------
 			// Access and store filtered fish control size in a variable.
 			const setFishSize = filtFish.size;
-<<<<<<< HEAD
 			//console.log(setFishSize);
-=======
-			console.log(setFishSize);
->>>>>>> fe4e9a3e0d481a9496789a243cb1bbe127323262
 
 			// Access and store button in a variable.
 			const sizeTestButton = document.getElementById("sizeTestBtn");
@@ -107,17 +103,10 @@ function fishTest() {
 
 				// If-else statement to produce verdict
 				if (fishSize >= setFishSize) {
-<<<<<<< HEAD
 					document.getElementById("verdict-size").innerHTML =
 						"You can keep your fish!";
 				} else {
 					document.getElementById("verdict-size").innerHTML =
-=======
-					document.getElementById("verd-size").innerHTML =
-						"You can keep your fish!";
-				} else {
-					document.getElementById("verd-size").innerHTML =
->>>>>>> fe4e9a3e0d481a9496789a243cb1bbe127323262
 						"You must release the fish!";
 				}
 			};
