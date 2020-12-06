@@ -35,4 +35,12 @@ function fishTest() {
       ]
     };
 
-    
+    // Obtain value from "fishList" dropdown list
+    const selectedFish = document.getElementById("fishList");
+    const selFishValue = selectedFish.options[selectedFish.selectedIndex].value;
+    // Console log selected value
+    console.log("Selected value drom dropdown list: ", selFishValue);
+
+    // Access and store fishCat array of objects content in a variable
+    const fishCatVar = fishData.fishCat;
+    // console.log(fishCatVar);
