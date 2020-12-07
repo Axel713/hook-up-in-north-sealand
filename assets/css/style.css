@@ -24,16 +24,15 @@ body {
 h1 {
 	font-weight: 700;
 	font-size: 1.5em;
+	line-height: 2em;
 	color: #d20b0b;
-	background-color: rgb(122, 255, 133);
-	margin-top: 8px;
+	padding-top: 1.5em;
 }
 
 h2 {
 	font-size: 1.4em;
 	color: #16bd67;
-	background-color: lightskyblue;
-	padding-top: 1em;
+	padding-top: 1.4em;
 }
 
 h3 {
@@ -46,6 +45,7 @@ p {
 	padding-bottom: 1em;
 	font-size: 1.1em;
 	letter-spacing: 0.1em;
+	text-align: justify;
 }
 
 .text-ico {
@@ -104,10 +104,11 @@ p {
 	border: none;
 }
 
-.fa-check-circle {
+.fa-check-circle:before {
+	content: "\f058";
 	padding-top: 0.1em;
 	padding-bottom: 0.15em;
-	color: #16bd67;
+	color: #d20b0b;
 }
 
 .btn-primary:not(:disabled):not(.disabled).active,
@@ -133,6 +134,9 @@ p {
 	border: none;
 }
 
+.card {
+	background-color: #ededf4;
+}
 /*------------------------------------------------------------------------------------ /Collapsible sections*/
 
 /*------------------------------------------------------------------------------------ Hero image*/
