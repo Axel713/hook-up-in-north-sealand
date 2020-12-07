@@ -68,6 +68,17 @@ h3 {
 .active a {
 	color: #d20b0b;
 }
+
+.navbar-toggler {
+	padding-bottom: 0.5em;
+	border: 2px solid #d20b0b;
+	border-radius: 15%;
+}
+
+.fa-bars {
+	padding: 0.1em;
+	color: #d20b0b;
+}
 /*------------------------------------------------------------------------------------ /Navbar*/
 
 /*------------------------------------------------------------------------------------ Collapsible sections*/
