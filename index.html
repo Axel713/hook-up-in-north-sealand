@@ -96,146 +96,157 @@
 			</div>
 		</div>
 		<div class="container"></div>
-		<!-- Fishing in North Sealand Section -->
-		<div>
-			<h2>Fishing in North Sealand</h2>
-			<article>
-				<p>
-					To fish on the North Coast Of Sealand (as well as any other
-					parts of Denmark), you need to be aware of some essential
-					legal requirements as well as some specifics.To fish on the
-					North Coast Of Sealand (as well as any other parts of
-					Denmark), you need to be aware of some essential legal
-					requirements as well as some specifics.
-				</p>
-				<p>
-					Click on the <i class="fas fa-balance-scale fa-lg"></i> icon
-					below to expand the "Legal Requirements and Criterias"
-					section, where you will find essential information to fish
-					legaly.
-				</p>
-				<p>
-					Click on the
-					<i class="fas fa-map-marked-alt fa-lg"></i> icon below to
-					expand the "Where to Go Fishing" section where popular lake
-					and sea fishing locations are marked. You can also find
-					locations where fishing is restriced or forbidden.
-				</p>
-				<p>
-					Click on the <i class="fas fa-check-circle fa-lg"></i> icon
-					below to expand a section where you will find a tool to
-					verify if you can take your catch home (limited to most
-					popular species).
-				</p>
-			</article>
-		</div>
-		<!-- /Fishing in North Sealand Section -->
 
-		<!-- Collapsible sections -->
-		<!-- Legal Requirements and Criterias Section -->
-		<div>
-			<h2>Legal Requirements and Criterias</h2>
-			<div class="colla-sect-cont">
-				<article>
+		<div class="container">
+			<!-- Fishing in North Sealand Section -->
+			<div class="row">
+				<div class="col-12">
+					<h2>Fishing in North Sealand</h2>
+					<article>
+						<p>
+							To fish on the North Coast Of Sealand (as well as
+							any other parts of Denmark), you need to be aware of
+							some essential legal requirements as well as some
+							specifics.To fish on the North Coast Of Sealand (as
+							well as any other parts of Denmark), you need to be
+							aware of some essential legal requirements as well
+							as some specifics.
+						</p>
+						<p>
+							Click on the
+							<i class="fas fa-balance-scale fa-lg"></i> icon
+							below to expand the "Legal Requirements and
+							Criterias" section, where you will find essential
+							information to fish legaly.
+						</p>
+						<p>
+							Click on the
+							<i class="fas fa-map-marked-alt fa-lg"></i> icon
+							below to expand the "Where to Go Fishing" section
+							where popular lake and sea fishing locations are
+							marked. You can also find locations where fishing is
+							restriced or forbidden.
+						</p>
+						<p>
+							Click on the
+							<i class="fas fa-check-circle fa-lg"></i> icon below
+							to expand a section where you will find a tool to
+							verify if you can take your catch home (limited to
+							most popular species).
+						</p>
+					</article>
+				</div>
+			</div>
+			<!-- /Fishing in North Sealand Section -->
+
+			<div class="row">
+				<!-- Legal Requirements and Criterias Section -->
+				<div class="col-12 col-lg-4">
+					<h2>Legal Requirements and Criterias</h2>
+					<article>
+						<div>
+							<button class="colla-sect">
+								<i class="fas fa-balance-scale fa-lg"></i>
+							</button>
+						</div>
+					</article>
+				</div>
+				<!-- /Legal Requirements and Criterias Section -->
+
+				<!-- Where to Go Fishing Section -->
+				<div class="col-12 col-lg-4">
+					<h2>Where to go Fishing</h2>
+					<i class="fas fa-map-marked-alt fa-lg"></i>
 					<div>
-						<button class="colla-sect">
-							<i class="fas fa-balance-scale fa-lg"></i>
-						</button>
+						<label for="lake">Lake</label>
+						<input
+							type="radio"
+							name="locationType"
+							id="lake"
+							value="lake"
+							checked
+							onclick="initMap()"
+						/>
+						<label for="sea">Sea</label>
+						<input
+							type="radio"
+							name="locationType"
+							id="sea"
+							value="sea"
+							onclick="initMap()"
+						/>
+						<label for="forbidden">Forbidden</label>
+						<input
+							type="radio"
+							name="locationType"
+							id="forbidden"
+							value="forbidden"
+							onclick="initMap()"
+						/>
+						<div id="map"></div>
 					</div>
-				</article>
+				</div>
+				<!-- /Where to Go Fishing Section -->
+
+				<!-- Can I take my Catch Home Section -->
+				<div class="col-12 col-lg-4">
+					<h2>Can I take my Catch Home?</h2>
+					<i class="fas fa-check-circle fa-lg"></i>
+					<div>
+						<h3>Catch Date Test</h3>
+						<label for="fishList">Select fish species:</label>
+						<select
+							name="fishList"
+							id="fishList"
+							onchange="fishTest()"
+						>
+							<option value="selectStat">Select fish</option>
+							<option value="lavaret">Lavaret</option>
+							<option value="mackerel">Mackerel</option>
+							<option value="perch">Perch</option>
+							<option value="pike">Pike</option>
+							<option value="plaice">Plaice</option>
+						</select>
+						<p id="verdict-date">test</p>
+					</div>
+					<div>
+						<h3>Catch size test:</h3>
+						<label for="fishSize"
+							>Enter your catch size (cm):</label
+						>
+						<input
+							type="number"
+							id="fishSize"
+							name="fishSize"
+							min="1"
+							max="200"
+							value="1"
+						/>
+						<button id="sizeTestBtn">
+							Press to verify catch size
+						</button>
+						<p id="verdict-size"></p>
+					</div>
+				</div>
+				<!-- /Can I take my Catch Home Section -->
 			</div>
 		</div>
-		<!-- /Legal Requirements and Criterias Section -->
-
-		<!-- Where to Go Fishing Section -->
-		<div>
-			<h2>Where to go Fishing</h2>
-			<div class="colla-sect-cont">
-				<i class="fas fa-map-marked-alt fa-lg"></i>
-			</div>
-			<div>
-				<label for="lake">Lake</label>
-				<input
-					type="radio"
-					name="locationType"
-					id="lake"
-					value="lake"
-					checked
-					onclick="initMap()"
-				/>
-				<label for="sea">Sea</label>
-				<input
-					type="radio"
-					name="locationType"
-					id="sea"
-					value="sea"
-					onclick="initMap()"
-				/>
-				<label for="forbidden">Forbidden</label>
-				<input
-					type="radio"
-					name="locationType"
-					id="forbidden"
-					value="forbidden"
-					onclick="initMap()"
-				/>
-			</div>
-			<div id="map"></div>
-		</div>
-		<!-- /Where to Go Fishing Section -->
-
-		<!-- Can I take my Catch Home Section -->
-		<div>
-			<h2>Can I take my Catch Home?</h2>
-			<div>
-				<i class="fas fa-check-circle fa-lg"></i>
-			</div>
-			<div>
-				<h3>Catch Date Test</h3>
-				<label for="fishList">Select fish species:</label>
-				<select name="fishList" id="fishList" onchange="fishTest()">
-					<option value="selectStat">Select fish</option>
-					<option value="lavaret">Lavaret</option>
-					<option value="mackerel">Mackerel</option>
-					<option value="perch">Perch</option>
-					<option value="pike">Pike</option>
-					<option value="plaice">Plaice</option>
-				</select>
-				<p id="verdict-date">test</p>
-			</div>
-			<div>
-				<h3>Catch size test:</h3>
-				<label for="fishSize">Enter your catch size (cm):</label>
-				<input
-					type="number"
-					id="fishSize"
-					name="fishSize"
-					min="1"
-					max="200"
-					value="1"
-				/>
-				<button id="sizeTestBtn">Press to verify catch size</button>
-				<p id="verdict-size"></p>
-			</div>
-		</div>
-		<!-- /Can I take my Catch Home Section -->
-
 		<!-- /Bootstrap Grid -->
 
 		<!-- Footer -->
 		<footer>
-			<div>
-				<div>
-					<div>
+			<div class="container">
+				<div class="row">
+					<div class="col-12 col-lg-4">
 						<i class="far fa-copyright fa-2x foot-ico-cop"></i>
 					</div>
-					<div>
+					<div class="col-12 col-lg-4">
 						<p class="foot-comp-nam-1">
-							<strong>Fishing in North Sealand</strong>
+							<strong>Hook-up in North Sealand</strong>
 						</p>
 						<p class="foot-comp-nam-2">All rights reserved</p>
 					</div>
-					<div>
+					<div class="col-12 col-lg-4">
 						<a href="https://www.facebook.com" target="_blank"
 							><i class="fab fa-facebook-square fa-lg"></i
 						></a>
