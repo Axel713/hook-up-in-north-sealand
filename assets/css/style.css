@@ -48,6 +48,14 @@ p {
 	text-align: justify;
 }
 
+p a {
+	color: #d20b0b;
+}
+
+p a:hover {
+	color: #e67410;
+}
+
 .text-ico {
 	color: #d20b0b;
 	padding-left: 0.3em;
