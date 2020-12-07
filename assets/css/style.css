@@ -98,8 +98,12 @@ p {
 /*------------------------------------------------------------------------------------ /Navbar*/
 
 /*------------------------------------------------------------------------------------ Collapsible sections*/
+.sec-title {
+	text-align: center;
+}
+
 .coll-sec-btn {
-	margin-left: 35%;
+	margin-left: 37%;
 	background-color: #ededf4;
 	border: none;
 }
@@ -164,3 +168,30 @@ p {
 	padding-top: 0.2em;
 }
 /*------------------------------------------------------------------------------------ /Can I take my Catch Home Section*/
+
+/*------------------------------------------------------------------------------------ Footer*/
+footer {
+	padding-top: 1.5em;
+	text-align: center;
+}
+
+.foot-comp-nam-1,
+.foot-comp-nam-2 {
+	text-align: center;
+	padding-top: 1em;
+	padding-bottom: 0.5em;
+	margin: 0;
+}
+
+.soc-med {
+	margin-bottom: 2em;
+}
+
+.foot-ico-cop {
+	color: #d20b0b;
+}
+
+.soc-med-ico {
+	color: #d20b0b;
+}
+/*------------------------------------------------------------------------------------ /Footer*/
