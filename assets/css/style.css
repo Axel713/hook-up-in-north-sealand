@@ -39,6 +39,13 @@ h2 {
 h3 {
 	font-size: 1.3em;
 }
+
+.text-ico {
+	color: #d20b0b;
+	padding-left: 0.3em;
+	padding-right: 0.3em;
+}
+
 /*------------------------------------------------------------------------------------ /Basic Format*/
 
 /*------------------------------------------------------------------------------------ Navbar*/
@@ -82,6 +89,40 @@ h3 {
 /*------------------------------------------------------------------------------------ /Navbar*/
 
 /*------------------------------------------------------------------------------------ Collapsible sections*/
+.coll-sec {
+	margin-left: 35%;
+	background-color: #ededf4;
+	border: none;
+}
+
+.fa-check-circle {
+	padding-top: 0.1em;
+	padding-bottom: 0.15em;
+	color: #16bd67;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active,
+.show > .btn-primary.dropdown-toggle {
+	background-color: #ededf4;
+	border: none;
+}
+
+.btn-primary:focus {
+	background-color: #ededf4;
+	box-shadow: none;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active:focus,
+.btn-primary:not(:disabled):not(.disabled):active:focus,
+.show > .btn-primary.dropdown-toggle:focus {
+	box-shadow: none;
+}
+
+.btn-primary:hover {
+	background-color: #ededf4;
+	border: none;
+}
 
 /*------------------------------------------------------------------------------------ /Collapsible sections*/
 
