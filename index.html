@@ -191,42 +191,59 @@
 				<!-- Can I take my Catch Home Section -->
 				<div id="catchVerif" class="col-12 col-lg-4">
 					<h2>Can I take my Catch Home?</h2>
-					<i class="fas fa-check-circle fa-lg"></i>
-					<div>
-						<h3>Catch Date Test</h3>
-						<label for="fishList">Select fish species:</label>
-						<select
-							name="fishList"
-							id="fishList"
-							onchange="fishTest()"
-						>
-							<option value="selectStat">Select fish</option>
-							<option value="lavaret">Lavaret</option>
-							<option value="mackerel">Mackerel</option>
-							<option value="perch">Perch</option>
-							<option value="pike">Pike</option>
-							<option value="plaice">Plaice</option>
-						</select>
-						<p id="verdict-date">test</p>
+					<div class="collapse" id="coll-catch-ver">
+						<div class="card card-body">
+							<div>
+								<h3>Catch Date Test</h3>
+								<label for="fishList"
+									>Select fish species:</label
+								>
+								<select
+									name="fishList"
+									id="fishList"
+									onchange="fishTest()"
+								>
+									<option value="selectStat">
+										Select fish
+									</option>
+									<option value="lavaret">Lavaret</option>
+									<option value="mackerel">Mackerel</option>
+									<option value="perch">Perch</option>
+									<option value="pike">Pike</option>
+									<option value="plaice">Plaice</option>
+								</select>
+								<p id="verdict-date">test</p>
+							</div>
+							<div>
+								<h3>Catch size test:</h3>
+								<label for="fishSize"
+									>Enter your catch size (cm):</label
+								>
+								<input
+									type="number"
+									id="fishSize"
+									name="fishSize"
+									min="1"
+									max="200"
+									value="1"
+								/>
+								<button id="sizeTestBtn">
+									Press to verify catch size
+								</button>
+								<p id="verdict-size"></p>
+							</div>
+						</div>
 					</div>
-					<div>
-						<h3>Catch size test:</h3>
-						<label for="fishSize"
-							>Enter your catch size (cm):</label
-						>
-						<input
-							type="number"
-							id="fishSize"
-							name="fishSize"
-							min="1"
-							max="200"
-							value="1"
-						/>
-						<button id="sizeTestBtn">
-							Press to verify catch size
-						</button>
-						<p id="verdict-size"></p>
-					</div>
+					<button
+						class="btn btn-primary"
+						type="button"
+						data-toggle="collapse"
+						data-target="#coll-catch-ver"
+						aria-expanded="false"
+						aria-controls="coll-catch-ver"
+					>
+						<i class="fas fa-check-circle fa-lg"></i>
+					</button>
 				</div>
 				<!-- /Can I take my Catch Home Section -->
 			</div>
