@@ -154,38 +154,53 @@
 				<!-- /Legal Requirements and Criterias Section -->
 
 				<!-- Where to Go Fishing Section -->
-				<div id="fishLoc" class="col-12 col-lg-4">
+				<div id="fishLoc" class="col-12 col-lg-4">							
 					<h2>Where to go Fishing</h2>
-					<i class="fas fa-map-marked-alt fa-lg"></i>
-					<div>
-						<label for="lake">Lake</label>
-						<input
-							type="radio"
-							name="locationType"
-							id="lake"
-							value="lake"
-							checked
-							onclick="initMap()"
-						/>
-						<label for="sea">Sea</label>
-						<input
-							type="radio"
-							name="locationType"
-							id="sea"
-							value="sea"
-							onclick="initMap()"
-						/>
-						<label for="forbidden">Forbidden</label>
-						<input
-							type="radio"
-							name="locationType"
-							id="forbidden"
-							value="forbidden"
-							onclick="initMap()"
-						/>
+					<div class="collapse" id="coll-fish-loc">
+						<div class="card card-body">
+							<div>
+								<label for="lake">Lake</label>
+								<input
+									type="radio"
+									name="locationType"
+									id="lake"
+									value="lake"
+									checked
+									onclick="initMap()"
+								/>
+								<label for="sea">Sea</label>
+								<input
+									type="radio"
+									name="locationType"
+									id="sea"
+									value="sea"
+									onclick="initMap()"
+								/>
+								<label for="forbidden">Forbidden</label>
+								<input
+									type="radio"
+									name="locationType"
+									id="forbidden"
+									value="forbidden"
+									onclick="initMap()"
+								/>
+							</div>
+						</div>
 						<div id="map"></div>
 					</div>
+					<button
+						class="btn btn-primary coll-sec-btn"
+						type="button"
+						data-toggle="collapse"
+						data-target="#coll-fish-loc"
+						aria-expanded="false"
+						aria-controls="coll-fish-loc"
+					>
+						<i class="fas fa-map-marked-alt fa-4x"></i></i>
+					</button>
 				</div>
+				
+					
 				<!-- /Where to Go Fishing Section -->
 
 				<!-- Can I take my Catch Home Section -->
@@ -235,7 +250,7 @@
 						</div>
 					</div>
 					<button
-						class="btn btn-primary coll-sec"
+						class="btn btn-primary coll-sec-btn"
 						type="button"
 						data-toggle="collapse"
 						data-target="#coll-catch-ver"
