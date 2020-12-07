@@ -100,6 +100,7 @@ p {
 /*------------------------------------------------------------------------------------ Collapsible sections*/
 .sec-title {
 	text-align: center;
+	min-height: 4em;
 }
 
 .div-btn-coll {
