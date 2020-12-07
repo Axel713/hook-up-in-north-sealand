@@ -102,8 +102,12 @@ p {
 	text-align: center;
 }
 
+.div-btn-coll {
+	text-align: center;
+}
+
 .coll-sec-btn {
-	margin-left: 37%;
+	/* margin-left: 37%; */
 	background-color: #ededf4;
 	border: none;
 }
