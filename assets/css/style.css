@@ -8,14 +8,18 @@ body {
 	padding: 0;
 	overflow-x: hidden;
 	font-family: sans-serif;
+	padding-top: 4.5rem;
 }
 
 h1 {
 	font-size: 1.5rem;
+	background-color: lightsalmon;
 }
 
 h2 {
 	font-size: 1.4rem;
+	background-color: lightskyblue;
+	padding-top: 1rem;
 }
 
 h3 {
@@ -24,7 +28,9 @@ h3 {
 /*------------------------------------------------------------------------------------ /Basic Format*/
 
 /*------------------------------------------------------------------------------------ Navbar*/
-
+.navbar {
+	background-color: lawngreen;
+}
 /*------------------------------------------------------------------------------------ /Navbar*/
 
 /*------------------------------------------------------------------------------------ Collapsible sections*/
