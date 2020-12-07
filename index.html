@@ -22,49 +22,80 @@
 	<body>
 		<!-- Navigation bar -->
 		<header>
-			<nav class="navbar">
-				<div class="brand-logo">
-					<i class="fas fa-fish fa-2x"></i>
-				</div>
-				<a href="#" class="toggle-button">
-					<i class="fas fa-bars fa-2x"></i>
-				</a>
-				<div class="navbar-links">
-					<ul id="myNavmenu" class="navmenu">
-						<li>
-							<a href="#" class="active">Home</a>
-						</li>
-						<li>
-							<a href="#">Legal Requirements</a>
-						</li>
-						<li>
-							<a href="#">Fishing Locations</a>
-						</li>
-						<li>
-							<a href="#">Catch Verification</a>
-						</li>
-					</ul>
+			<nav class="navbar fixed-top navbar-expand-lg">
+				<div class="container">
+					<a class="navbar-brand" href="index.html">
+						<i class="fas fa-fish fa-2x"></i>
+					</a>
+
+					<!-- Collapsible bar -->
+					<button
+						class="navbar-toggler ml-auto"
+						data-toggle="collapse"
+						data-target="#navbarMenu"
+					>
+						<span class="navbar-toggler-icon">
+							<i class="fas fa-bars"></i>
+						</span>
+					</button>
+					<div
+						class="collapse navbar-collapse text-right"
+						id="navbarMenu"
+					>
+						<ul class="navbar-nav ml-auto">
+							<li class="nav-item active">
+								<a class="nav-link" href="#"
+									>Home<span class="sr-only"
+										>(current)</span
+									></a
+								>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#"
+									>Legal Requirements</a
+								>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#"
+									>Fishing Locations</a
+								>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#"
+									>Catch Verification</a
+								>
+							</li>
+						</ul>
+					</div>
+					<!-- /Collapsible bar -->
 				</div>
 			</nav>
 		</header>
 		<!-- /Navigation bar -->
 
-		<!-- Site name -->
-		<div>
-			<h1>Hook-up in North Sealand</h1>
-		</div>
-		<!-- /Site name -->
+		<!-- Bootstrap Grid -->
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<!-- Site name -->
+					<div>
+						<h1>Hook-up in North Sealand</h1>
+					</div>
+					<!-- /Site name -->
 
-		<!-- Hero image -->
-		<div>
-			<img
-				src="assets/images/hook-up-hero-image.jpg"
-				class="hero-image"
-				alt="Image of a man fishing in the sunset"
-			/>
+					<!-- Hero image -->
+					<div>
+						<img
+							src="assets/images/hook-up-hero-image.jpg"
+							class="hero-image"
+							alt="Image of a man fishing in the sunset"
+						/>
+					</div>
+					<!-- /Hero image -->
+				</div>
+			</div>
 		</div>
-		<!-- /Hero image -->
-
+		<div class="container"></div>
 		<!-- Fishing in North Sealand Section -->
 		<div>
 			<h2>Fishing in North Sealand</h2>
@@ -188,6 +219,8 @@
 			</div>
 		</div>
 		<!-- /Can I take my Catch Home Section -->
+
+		<!-- /Bootstrap Grid -->
 
 		<!-- Footer -->
 		<footer>
