@@ -22,6 +22,7 @@ body {
 }
 
 h1 {
+	font-weight: 700;
 	font-size: 1.5em;
 	color: #d20b0b;
 	background-color: rgb(122, 255, 133);
@@ -30,6 +31,7 @@ h1 {
 
 h2 {
 	font-size: 1.4em;
+	color: #16bd67;
 	background-color: lightskyblue;
 	padding-top: 1em;
 }
@@ -40,11 +42,31 @@ h3 {
 /*------------------------------------------------------------------------------------ /Basic Format*/
 
 /*------------------------------------------------------------------------------------ Navbar*/
+.navbar-brand {
+	color: #d20b0b;
+	border-style: solid;
+	border-radius: 15%;
+}
+
+.fa-fish {
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+}
+
 .navbar {
 	background-color: lawngreen;
+	color: #010320;
 	font-family: "Red Rose", sans-serif;
 	font-weight: 400;
 	font-size: 1.3em;
+}
+
+.nav-link {
+	color: #010320;
+}
+
+.active a {
+	color: #d20b0b;
 }
 /*------------------------------------------------------------------------------------ /Navbar*/
 
