@@ -31,7 +31,7 @@ h1 {
 h2 {
 	font-size: 1.4em;
 	background-color: lightskyblue;
-	padding-top: 1rem;
+	padding-top: 1em;
 }
 
 h3 {
@@ -42,6 +42,9 @@ h3 {
 /*------------------------------------------------------------------------------------ Navbar*/
 .navbar {
 	background-color: lawngreen;
+	font-family: "Red Rose", sans-serif;
+	font-weight: 400;
+	font-size: 1.3em;
 }
 /*------------------------------------------------------------------------------------ /Navbar*/
 
