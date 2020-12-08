@@ -151,19 +151,19 @@ Wireframe version historic:
 
 -   Responsive Design
 
-With a _mobile-first_ design principle in mind, the site's layout changes according to the display size, with the most important information shown on mobile-size devices.
+With a _mobile-first_ design principle in mind, the content dimension adapts according to the display size, with the layout adapting to larger resolution devices.
 
 -   Easy-to-the-eye colour theme
 
-In particular the blend of a white _with gray notes_ and black _with lighter than standard depth_ gives a relaxing reading environment.
+In particular the blend of a white _with gray notes_ and black _with blue notes_ gives a relaxing reading environment.
 
--   Covid-19 Safety information
+-   Google Map based tool
 
-A modal pop-up placed in the navgation bar informs users of Fit Fo Work's measures to in regards to Covid-19.
+A Google Map will display a different set of markers based on user's input.
 
--   Contact form
+-   Catch verification
 
-Used to book a massage trial. The form informs the user if they have not completed the mandatory fields of the form, for example: name, email address, etc, and an "Agree to terms and conditions" checkbox. Upon submission of the form, the user gets a notification that the form has been sent and should expect to be contacted by Fit For Work. It must be noted that the current form design is not fully functional (no backend servicing) due to my technology limitations.
+A tool to verify if the user can take his caught fish home or not.
 
 -   Social link
 
