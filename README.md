@@ -271,10 +271,9 @@ The link located in the footer section function. Do note that they do point to t
 
 #### **initMap**
 
--   Tried to submit an empty form and verified that an error message about the required fields appears.
--   Tried to submit the form with an invalid email address and verified that a relevant error message appears.
--   Tried to submit the form with an invalid phone number (alphabetical characters) and verified that a relevant error message appears.
--   Try to submit the form with all inputs valid and verified that a success message appears.
+| Expected Behaviour                                | Result  | Illustration                                                         |
+| ------------------------------------------------- | ------- | -------------------------------------------------------------------- |
+| Loads a Google Map with markers for lake fishing. | Working | ![map lake](testing/javscript/function-testing/map-lake-success.png) |
 
 ### **Bugs and fixes**
 
