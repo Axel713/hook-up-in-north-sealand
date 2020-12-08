@@ -187,6 +187,8 @@ To allow for the novice fishermen to recognise the fish they catch.
 
 An added category that describes different fishing forms and where they can be practised in Denmark.
 
+-   Optimisation of JavaScript functions to facilitate recycling.
+
 [Back to Content](#Content)
 
 ---
@@ -218,6 +220,18 @@ It is **important to note**, that the JavaScript files do not include a "documen
 ---
 
 ## **Testing**
+
+### **User stories testing**
+
+Verification of user requirements:
+| Requirements | Verification | Status |
+| ------------ | ------------ | ------ |
+| A navigation bar | ![Navbar verif](testing/user-requirements-verifications/navbar-verif.png) | OK |
+| Brief how to use site explanation | ![Site expl](testing/user-requirements-verifications/site-instruct-verif.png) | OK |
+| Brief summary of requirements for fishing in Denmark, link to reference legal information, environmental considerations. | ![Leg requs](testing/user-requirements-verifications/leg-requ-envir-verif.png) | OK |
+| A map with some fishing location examples, as well as where it is not allowed to fish. | ![Map verif](testing/user-requirements-verifications/map-verif.png) | OK |
+| Caught fish verification tool| ![Catch verif](testing/user-requirements-verifications/catch-verif.png) | OK |
+| Social media links | ![Social verif](testing/user-requirements-verifications/social-verif.png) | OK |
 
 ### **HTML code validation**
 
