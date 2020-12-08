@@ -1,14 +1,14 @@
 # Hook-up in North Sealand
 
-![Fit For Work logo](assets/images/ffw-logo-transparent.jpg)
+![Hook-up in North Sealand logo]()
 
-[View the live project here.](https://axel713.github.io/fit-for-work/)
+[View the live project here.](https://axel713.github.io/hook-up-in-north-sealand/)
 
-Fit For Work I/S offers onsite massage and other well-being therapies to companies in Denmark. This project aims to offer to Fit For Work I/S a visual upgrade to their current website, judged to be lacking in attractivity.
+Hook-up in North Sealand is a new project, directed primarly to foreigners living in Denmark or tourists who want to take part or begin to discover fishing in the country.
 
-The overall goal is to promote how Fit For Work I/S can help to benefit corporate clients by offering their services to their workforce.
+The overall goal is to give its audience a reconciliation of the basic necessary information which is most often scattered accross various danish sites.
 
-This project was developed in cooperation with the company owners, to gain their input in terms of necessary and future feaatures, as well as design style.
+As a new fisherman, I intend to also a give some field functionality that help users with following some of the exisiting rules.
 
 ## Content
 
@@ -50,10 +50,10 @@ This project was developed in cooperation with the company owners, to gain their
 
 ## **UX**
 
-User profiles are very varied. Whilst they are majorly danish, variations in culture, background, age range and corporate level make it difficult to pinpoint a/some specific groups. Nonetheless, to fit the current scandinavic design trends and the owner's wishes, the new UX must be:
+User profiles are expected to be very varied. Being mainly targeted to foreigners in Denmark and tourists, variations in culture, background, age range make it difficult to pinpoint a/some specific groups. Nonetheless, to fit the current scandinavic design trends and be easy to use (especially in the field) the new UX must be:
 
 -   with a simple and clear layout.
--   with a colour theme reflecting professionalism and a "clinical" flavour.
+-   with a colour theme blending sea, nature and the Danish location. It also must be "easy on the eye" especially during levels of low light conditons, since the best fishing times tend to be at dusk/dawn.
 
 ### **User Goals**
 
