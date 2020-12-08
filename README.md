@@ -125,16 +125,16 @@ This site was designed according to a "mobile first" philosophy, using [balsamiq
 
 The current wireframe file (version 02) can be found : [here](design-tools/wireframes/hook-up-in-north-sealand_V02.bmpr).
 
-| Wireframes                                                                                      |
-| ----------------------------------------------------------------------------------------------- |
-| Mobile:                                                                                         |
-| ![index page mobile view](design-tools/wireframes/wireframe-images/wireframe-mobile.png)        |
-| ----------------------------------------------------------------------------------------------- |
-| Tablet:                                                                                         |
-| ![index page mobile view](design-tools/wireframes/wireframe-images/tablet-landscape.png)        |
-| ----------------------------------------------------------------------------------------------- |
-| Desktop:                                                                                        |
-| ![index page mobile view](design-tools/wireframes/wireframe-images/desktop.png)                 |
+| Wireframes                                                                                         |
+| -------------------------------------------------------------------------------------------------- |
+| Mobile:                                                                                            |
+| ![index page mobile view](design-tools/wireframes/wireframe-images/wireframe-mobile.png)           |
+| -----------------------------------------------------------------------------------------------    |
+| Tablet:                                                                                            |
+| ![index page mobile view](design-tools/wireframes/wireframe-images/wireframe-tablet-landscape.png) |
+| -----------------------------------------------------------------------------------------------    |
+| Desktop:                                                                                           |
+| ![index page mobile view](design-tools/wireframes/wireframe-images/wireframe-desktop.png)          |
 
 Wireframe version historic:
 
