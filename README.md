@@ -181,7 +181,7 @@ To allow for the novice fishermen to recognise the fish they catch.
 
 -   Fishing forms
 
-A category that describes different fishing forms and where they can be practised in Denmark.
+An added category that describes different fishing forms and where they can be practised in Denmark.
 
 [Back to Content](#Content)
 
@@ -195,9 +195,7 @@ A category that describes different fishing forms and where they can be practise
 -   [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 -   [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
-_Note_: whilst JavaScript is not a part of the project curriculum, a customised code has been added to the contact form located in the [book-trial.html](book-trial.html) to allow a confirmation of success pop up modal to function and improve the user experience. The code was generously provided by my mentor (Dick Vlaanderen).
-
-It is **important to note**, that in book-trial.html, it is necessary to add the custom script for the form right before the closing body tag to allow for functionality, overriding the Bootstrap documentation instruction regarding its own scripts.
+It is **important to note**, that the JavaScript files do not include a "document.ready" function. After discussions with my mentor, with one being API based and the other only initiated on user's input, a "document.ready" was not deemed necessary.
 
 ### **Libraries**
 
