@@ -41,7 +41,7 @@ As a new fisherman, I intend to also a give some field functionality that help u
     -   [Bugs and fixes](#Bugs-and-fixes)
         -   [HMTL fixes](#HMTL-fixes)
         -   [CSS sixes](#CSS-fixes)
-        -   [Miscellaneous fixes](#Miscellaneous-fixes)
+        -   [JavaScript fixes](#JavaScript-fixes)
 -   [Deployment](#Deployment)
     -   [GitHub Pages](#GitHub-Pages)
     -   [Local deployment](#Local-deployment)
@@ -307,7 +307,8 @@ I have also asked my fellow students at the Code Institute to review my site and
 
 #### **JavaScript fixes**
 
--   Moved wireframes folder and its content out of assets folder and placed it into fit-for-work folder, since this is supporting documentation that is not required to run the website.
+-   For both JavaScript files, added some JSDoc content on top of the files, as per sugested by my mentor [Dick Vlaanderen](https://www.linkedin.com/in/dick-vlaanderen/).
+-   In fishTest function: Line 60, followed suggestion from code validator by replacing "==" with "===" which is more accurate.
 
 [Back to Content](#Content)
 
@@ -324,26 +325,26 @@ I deployed the site using [GitHub Pages](https://pages.github.com/).
 -   Opened up **GitHub** in the browser.
 -   Signed in with my **username** and **password**.
 -   Selected my **repositories**.
--   Navigated to **Axel713/fit-for-work**.
+-   Navigated to **Axel713/hook-up-in-north-sealand**.
 -   In the top navigation, clicked **settings**.
 -   Scrolled down to the **GitHub Pages** section.
 -   Selected **Master Branch** from the **Source** dropdown menu.
 -   Clicked to **confirm** my **selection**.
--   [Fit For Work](https://axel713.github.io/fit-for-work/) is now **live** in **GitHub Pages**.
+-   [Hook-up in North Sealand](https://axel713.github.io/hook-up-in-north-sealand/index.html) is now **live** in **GitHub Pages**.
 
 ### **Local deployment**
 
-To clone **Fit For Work** from GitHub:
+To clone **Hook-up in North Sealand** from GitHub:
 
--   Navigate to **Axel713/fit-for-work**.
+-   Navigate to **Axel713/hook-up-in-north-sealand**.
 -   Click the green **Clone or Download** button.
 -   **Copy** the url in the dropdown box.
 -   In your **IDE** (Integrated Development Environment), open up your terminal.
 -   **Locate** your desired file location.
 
-Copy the following code and input it into your terminal to clone Money Pot:
+Copy the following code and input it into your terminal to clone Hook-up in North Sealand:
 
-`git clone https://github.com/Axel713/fit-for-work`
+`git clone https://github.com/Axel713/hook-up-in-north-sealand`
 
 [Back to Content](#Content)
 
@@ -353,15 +354,15 @@ Copy the following code and input it into your terminal to clone Money Pot:
 
 ### **Project Content**
 
--   The grid structure, modals, testimonials and contact form were based on [Bootstrap](https://getbootstrap.com/) code provided in the documentation.
+-   The grid structure was based on [Bootstrap](https://getbootstrap.com/) code provided in the documentation.
 -   The icons were found at: [Font-Awesome](https://fontawesome.com/).
 -   The fonts were found at: [Google fonts](https://fonts.google.com/).
--   The text content is translated and adapted from the current [Fit For Work website](https://fitforwork.dk) (available in Danish only).
--   The script code section used in [book-trial.html](book-trial.html) was generously provided by my mentor (Dick Vlaanderen).
+-   The text in the Legal Requirements and Criterias section is inspired from the [Ministry of environment of Denmark](https://naturstyrelsen.dk/) (available in Danish only).
+-   The Google Map is access via Google Maps API [Google Maps Platform](https://cloud.google.com/maps-platform/maps).
 
 ### **Media**
 
--   The photos used in this site were obtained from Fit For Work, who owns them.
+-   The photo used in this site is owned by myself.
 -   The colour palette was made using [Coolors](https://coolors.co/).
 
 ### **Acknowledgements**
