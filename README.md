@@ -285,8 +285,8 @@ The link located in the footer section function. Do note that they do point to t
 | User gets message if fishing day is within restricted period.       | Working | ![restricted period](testing/javscript/function-testing/fish-test-restricted-period-success.png) |
 | User gets message if fishing day is outside restricted period.      | Working | ![allowed period](testing/javscript/function-testing/fish-test-allowed-period-success.png)       |
 | User gets message if no restricted period.                          | Working | ![no restriction](testing/javscript/function-testing/fish-test-no-period-success.png)            |
-| User gets message if length of selected fish is below allowed size. | Working | ![length too small](testing/javscript/function-testing/fish-test-no-period-success.png)          |
-| User gets message if length of selected fish is above allowed size. | Working | ![length ok](testing/javscript/function-testing/fish-test-no-period-success.png)                 |
+| User gets message if length of selected fish is below allowed size. | Working | ![length too small](testing/javscript/function-testing/fish-length-not-ok-success.png)           |
+| User gets message if length of selected fish is above allowed size. | Working | ![length ok](testing/javscript/function-testing/fish-length-ok-success.png)                      |
 
 ### **Bugs and fixes**
 
