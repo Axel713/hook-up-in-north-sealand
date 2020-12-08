@@ -1,6 +1,6 @@
 # Hook-up in North Sealand
 
-![Hook-up in North Sealand logo]()
+![Hook-up in North Sealand logo](assets/images/hook-up-site-logo.PNG)
 
 [View the live project here.](https://axel713.github.io/hook-up-in-north-sealand/)
 
