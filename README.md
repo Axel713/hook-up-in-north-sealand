@@ -132,7 +132,7 @@ The current wireframe file (version 02) can be found : [here](design-tools/wiref
 | ----------------------------------------------------------------------------------------------- |
 
 | Tablet:
-| ![index page mobile view](design-tools/wireframes/wireframe-images/tablet-landscape.png) |
+| ![index page mobile view]("design-tools/wireframes/wireframe-images/tablet-landscape.png") |
 | ----------------------------------------------------------------------------------------------- |
 | Desktop: |
 | ![index page mobile view](design-tools/wireframes/wireframe-images/desktop.png) |
