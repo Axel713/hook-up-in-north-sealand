@@ -8,7 +8,7 @@ Hook-up in North Sealand is a new project, directed primarly to foreigners livin
 
 The overall goal is to give its audience a reconciliation of the basic necessary information which is most often scattered accross various danish sites.
 
-As a new fisherman, I intend to also a give some field functionality that help users with following some of the exisiting rules.
+As a new fisherman, I also intend to give some field functionality that help users with following some of the exisiting rules.
 
 ## Content
 
