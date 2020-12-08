@@ -171,17 +171,17 @@ Located in footer section.
 
 ### **Future Features**
 
--   Contact form
+-   Map markers
 
-To design an implement backend to collect the submited information in a database.
+To implement a name. deeper description and further information to the markers displaying on the map instead of the generic letters.
 
--   Additional services
+-   Fish image gallery
 
-Additional pages that describe further treatment offerings to be implemented.
+To allow for the novice fishermen to recognise the fish they catch.
 
--   Additional languages
+-   Fishing forms
 
-An option for the user to choose to to view the site in English or Danish.
+A category that describes different fishing forms and where they can be practised in Denmark.
 
 [Back to Content](#Content)
 
