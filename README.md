@@ -125,11 +125,17 @@ This site was designed according to a "mobile first" philosophy, using [balsamiq
 
 The current wireframe file (version 02) can be found : [here](design-tools/wireframes/hook-up-in-north-sealand_V02.bmpr).
 
-| Mobile Versions                                                                                 | Desktop Versions                                                                                         |
-| ----------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
-| ![index page mobile view](design-tools/wireframes/wireframe-images/index-html.png)              | ![index page desktop view](design-tools/wireframes/wireframe-images/index-html-desktop.png)              |
-| ![onsite massage mobile view](design-tools/wireframes/wireframe-images/onsite-massage-html.png) | ![onsite massage desktop view](design-tools/wireframes/wireframe-images/onsite-massage-html-desktop.png) |
-| ![book trial mobile view](design-tools/wireframes/wireframe-images/book-trial-html.png)         | ![book trial desktop view](design-tools/wireframes/wireframe-images/book-trial-html-desktop.png)         |
+| Wireframes                                                                                      |
+| ----------------------------------------------------------------------------------------------- |
+| Mobile:                                                                                         |
+| ![index page mobile view](design-tools/wireframes/wireframe-images/wireframe-mobile.png)        |
+| ----------------------------------------------------------------------------------------------- |
+
+| Tablet:
+| ![index page mobile view](design-tools/wireframes/wireframe-images/tablet-landscape.png) |
+| ----------------------------------------------------------------------------------------------- |
+| Desktop: |
+| ![index page mobile view](design-tools/wireframes/wireframe-images/desktop.png) |
 
 Wireframe version historic:
 
