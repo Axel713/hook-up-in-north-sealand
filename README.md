@@ -59,38 +59,33 @@ User profiles are expected to be very varied. Being mainly targeted to foreigner
 
 -   **Know where** I can find essential legal information for fishing in Denmark.
 -   **Know where** I can purchase a fishing licence.
--   **Be aware** of Be aware of environmental considerations.
+-   **Be aware** of environmental considerations.
 -   **Find out** some examples of where I can go fishing.
 -   **Know if** I can keep the fish that I catch.
 -   **Access** social media.
 
 ### **User Stories**
 
--   As a user type, I want to find out why is onsite massage good for my company.
--   As a user, I want to find out how can Fit For Work fulfill my own site massage requirements.
--   As a user, I want to find out how can Fit For Work make administration of their services easy for me.
--   As a user, I want to be able to try the services provided.
--   As a user I want to be able to contact Fit for Work I/S.
--   As a user, I want to know how does Fit For Work handle the Covid-19 situation.
--   As a user, I want to be able to check their social media page.
--   As a user, I want a link to Fit For Work booking system.
--   As a user, I want to see feedback from other companies using Fit For Work's services.
+-   As a user, I want to know where I can find essential legal information for fishing in Denmark.
+-   As a user, I want to know where I can purchase a fishing licence.
+-   As a user, I want to be aware of environmental considerations.
+-   As a user, I want to find out where I can go fishing.
+-   As a user I want to know if I can keep the fish that I catch.
+-   As a user, I want to access social medias.
 
 ### **Site Owner Goals**
 
--   As a site owner, I want to inform potential clients about onsite massage benefits.
--   As a site owner, I want people to know what actions we take in regards to Covid-19.
--   As a site owner, I want prospective customers to easily book a massage trial.
--   As a site owner, I want my exisiting customers to have a quick access to out booking system.
--   As a site owner, I want users to know how we can help them (onsite massage and easy administration).
--   As a site owner, I want users to easily contact me.
--   As a site owner, I want users to have a link to our social media page.
+-   As a site owner, I want to inform foreigners in Denmark and tourists of how about what they need to start fishing in Denmark.
+-   As a site owner, I want users to know where they can access reference legal information.
+-   As a site owner, I want users to have a link to a fishing licence purchase service.
+-   As a site owner, I want users to be aware and keep in mind the environment when fishing.
+-   As a site owner, I want users to know if they can keep the fish that they catch.
+-   As a site owner, I want users to access dedicated social media sites (when existing).
 
 ### **User Requirements and Expectations**
 
-1. The site must have a navigation bar
-1. The site must have a clear and obvious access to information on how we work in regards to Covid-19.
-1. The site must include a describition of our services.
+1. The site must have a navigation bar.
+1. The site must include a brief explanation on how to use it.
 1. The site must allow for exisiting and potential customers to easily contact us.
 1. The site must include a link to our booking system.
 1. The site must include a contact form that collects user details when booking a massage trial.
