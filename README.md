@@ -101,7 +101,7 @@ The site must be pleasant to the eye whilst using effective colour contrasts to 
 #### **Colours**
 
 The selection of colour is made to inspire a blending of: sea, nature and the Danish location. To make the content easy and pleasant to read, I chose a dedicated white (with gray notes) and black (with a blue flavour). The combination white/red is in reference to the danish flag; for ease-of-read, the white color is however on the gray side of the palette. Green is for nature, black with blue flavour is for the sea.
-![Colour palette](design-tools\colour-palette\hook-up-palette.png)
+![Colour palette](design-tools/colour-palette/hook-up-palette.png)
 
 -   Green #16BD67 is used for section names.
 -   Orange #E67410 is used for verdicts given by the catch verification section.
