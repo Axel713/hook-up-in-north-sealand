@@ -57,7 +57,10 @@ function fishTest() {
 
 			// ----------------------------------------------------------------------------- DATE TEST -----------------------------------------------------------------------------
 			// Process fish without restriced period.
-			if (filtFish.seasonStart == false && filtFish.seasonEnd == false) {
+			if (
+				filtFish.seasonStart === false &&
+				filtFish.seasonEnd === false
+			) {
 				document.getElementById("verdict-date").innerHTML =
 					"No restricted period. Test your fish size below!";
 			} else {
