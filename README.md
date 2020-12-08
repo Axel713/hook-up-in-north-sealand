@@ -69,7 +69,7 @@ User profiles are expected to be very varied. Being mainly targeted to foreigner
 -   As a user, I want to know where I can find essential legal information for fishing in Denmark.
 -   As a user, I want to know where I can purchase a fishing licence.
 -   As a user, I want to be aware of environmental considerations.
--   As a user, I want to find out where I can go fishing.
+-   As a user, I want to find out where I can go fishing and where I can not.
 -   As a user I want to know if I can keep the fish that I catch.
 -   As a user, I want to access social medias.
 
@@ -79,6 +79,7 @@ User profiles are expected to be very varied. Being mainly targeted to foreigner
 -   As a site owner, I want users to know where they can access reference legal information.
 -   As a site owner, I want users to have a link to a fishing licence purchase service.
 -   As a site owner, I want users to be aware and keep in mind the environment when fishing.
+-   As a site owner, I want users to know where they can go fishing and where they can not.
 -   As a site owner, I want users to know if they can keep the fish that they catch.
 -   As a site owner, I want users to access dedicated social media sites (when existing).
 
@@ -86,12 +87,12 @@ User profiles are expected to be very varied. Being mainly targeted to foreigner
 
 1. The site must have a navigation bar.
 1. The site must include a brief explanation on how to use it.
-1. The site must allow for exisiting and potential customers to easily contact us.
-1. The site must include a link to our booking system.
-1. The site must include a contact form that collects user details when booking a massage trial.
-1. The site must include our contact details.
-1. The site must include a link to our social media page.
-1. The site must be designed in a visually apppealing manner and easy to read.
+1. The site must include a brief summary of requirements for fishing in Denmark.
+1. The site must include a link to reference legal information.
+1. The site must include some environmental considerations to make the user aware of the concept when fishing.
+1. The site must include a map with some fishing location examples, as well as where it is not allowed to fish.
+1. The site must include a tool to allow users to verify if they can keep the fish that they catch.
+1. The site must include some social media links.
 
 ### **Design Choices**
 
