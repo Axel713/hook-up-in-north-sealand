@@ -36,7 +36,8 @@ As a new fisherman, I intend to also a give some field functionality that help u
     -   [Responsiveness](#Responsiveness)
     -   [Social media link](#Social-media-link)
     -   [JavaScript functions](#JavaScript-functions)
-        -   [initMap()](#initMap)
+        -   [initMap](#initMap)
+        -   [fishTest](#fishTest)
     -   [Bugs and fixes](#Bugs-and-fixes)
         -   [HMTL fixes](#HMTL-fixes)
         -   [CSS sixes](#CSS-fixes)
@@ -271,9 +272,13 @@ The link located in the footer section function. Do note that they do point to t
 
 #### **initMap**
 
-| Expected Behaviour                                | Result  | Illustration                                                         |
-| ------------------------------------------------- | ------- | -------------------------------------------------------------------- |
-| Loads a Google Map with markers for lake fishing. | Working | ![map lake](testing/javscript/function-testing/map-lake-success.png) |
+| Expected Behaviour                                       | Result  | Illustration                                                                   |
+| -------------------------------------------------------- | ------- | ------------------------------------------------------------------------------ |
+| Loads a Google Map with markers for lake fishing.        | Working | ![map lake](testing/javscript/function-testing/map-lake-success.png)           |
+| Loads a Google Map with markers for sea fishing.         | Working | ![map sea](testing/javscript/function-testing/map-sea-success.png)             |
+| Loads a Google Map with markers for forbidden locations. | Working | ![map forbidden](testing/javscript/function-testing/map-forbidden-success.png) |
+
+#### **fishTest**
 
 ### **Bugs and fixes**
 
