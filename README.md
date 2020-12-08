@@ -223,10 +223,10 @@ It is **important to note**, that the JavaScript files do not include a "documen
 
 To verify the quality of the written HTML documents, I used the automated [W3C Markup Validator](https://validator.w3.org) service. The code was tested with the Direct Input tool.
 
-| Page           | Status                                                           | Actions                                                                                                                                                                 |
-| -------------- | ---------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **index.html** | [Warnings](testing/w3c-html-code-validation/html-check-v01.pdf)  | Moved opening article tag in "Fishing in North Seland" section. Removed second article tags all together, as moving them was interfering with collapsable section code. |
-| **index.html** | [No errors](testing/w3c-html-code-validation/html-check-v02.pdf) | None.                                                                                                                                                                   |
+| Page           | Status                                                           | Actions                                                                                                                                                                  |
+| -------------- | ---------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **index.html** | [Warnings](testing/w3c-html-code-validation/html-check-v01.pdf)  | Moved opening article tag in "Fishing in North Sealand" section. Removed second article tags all together, as moving them was interfering with collapsable section code. |
+| **index.html** | [No errors](testing/w3c-html-code-validation/html-check-v02.pdf) | None.                                                                                                                                                                    |
 
 ### **CSS code validation**
 
@@ -292,34 +292,20 @@ The link located in the footer section function. Do note that they do point to t
 
 I found and fixed various bugs in the final testing phase of the project; those are listed below.
 
-I have also asked my fellow students at the Code Institute to review my site and report any bugs or issues they may discover.
+I have also asked my fellow students at the Code Institute to review my site and report any bugs or issues they may discover. Opportunities for improvement were mentioned but no issues reported.
 
 #### **HMTL fixes**
 
--   In book.trial.html, added "Optional fields" to "Therapies you are interested in".
--   In all .html files, responsive grid 2, right section, added a row to align image on the right-hand side with content below h2 on the left-hand side.
--   In index.html, removed all "br" tags.
--   In onsite-massge.html, removed all "br" tags.
--   In book-trial.html, removed all "br" tags.
--   In all .html files, verified and removed all leftover "br" tags, added to responsive grid 1 an id=res-gri-1.
+-   Moved opening article tag in "Fishing in North Sealand" section.
+-   Removed second article tags all together, as moving them was interfering with collapsable section code.
+-   Corrected spelling: from "Where to go Fishing" to "Where to Go Fishing".
+-   Corrected spelling: from "Can I take my Catch Home?" to "Can I Take my Catch Home?".
 
 #### **CSS fixes**
 
--   In style.css, for p category, adjusted font style, line spacing and letter spacing to make reading more pleasant.
--   In style.css, removed redundant article p selector.
--   In style.css, adjusted font size for .form-opt-fiel to 0.85em.
--   In style.css, for callout-p class selector, removed margin-bottom: 10px.
--   In style.css, corrected syntax for .modal-title, font-family: "Montserrat", sans-serif.
--   In style.css, corrected syntax for .cov-moda-p and .cov-moda-lis, font-family: Montserrat, sans-serif.
--   In style.css, adjusted font size and color for Covid-19 Safety modal. Also added selector .cov-moda-lis li to define appropriate text display format.
--   In style.css, adjusted h2 margin-bottom to 15px.
--   In style.css, defined #blank-h2 with a height of 56px.
--   In style.css, added media queries to make testimonials responsive at different width resolutions.
--   In style.css, adjusted footer margin-top to 50px.
--   In style.css, for #res-gri-1, defined margin-top of 2rem.
--   In style.css, for .img-resp-grid-2, removed margin:auto.
+-   In style.css, Defined a minimum height of 473px to collapsible card class (.card-min-heig), to keep the "Can I take my Catch Home?" leveled with the "Where to go Fishing"
 
-#### **Miscellaneous fixes**
+#### **JavaScript fixes**
 
 -   Moved wireframes folder and its content out of assets folder and placed it into fit-for-work folder, since this is supporting documentation that is not required to run the website.
 
