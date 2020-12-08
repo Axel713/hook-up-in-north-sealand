@@ -86,7 +86,7 @@ User profiles are expected to be very varied. Being mainly targeted to foreigner
 ### **User Requirements and Expectations**
 
 1. The site must have a navigation bar.
-1. The site must include a brief explanation on how to use it.
+1. The site must include a brief explanation of how to use it.
 1. The site must include a brief summary of requirements for fishing in Denmark.
 1. The site must include a link to reference legal information.
 1. The site must include some environmental considerations to make the user aware of the concept when fishing.
@@ -96,25 +96,22 @@ User profiles are expected to be very varied. Being mainly targeted to foreigner
 
 ### **Design Choices**
 
-The site must be pleasant to the eye whilst using effective colour contrasts to allow objects and sections to stand out from one another. Navigation text and call for action buttons must be large enough to people with dimming vision to browse the site with ease.
+The site must be pleasant to the eye whilst using effective colour contrasts to allow objects and sections to stand out from one another. Navigation text and buttons must be large enough to allow for an easy browsing experience at low-light levels.
 
 #### **Colours**
 
-The selection of colour is made to include Fit For Work Green logo section proeminent. To make the content easy and pleasant to read, I chose a dedicated white (with gray notes) and black (lighter than standard).
-![Colour palette](design-tools/colour-palette/ffw-colour-palette.png)
+The selection of colour is made to inspire a blending of: sea, nature and the Danish location. To make the content easy and pleasant to read, I chose a dedicated white (with gray notes) and black (with a blue flavour). The combination white/red is in reference to the danish flag; for ease-of-read, the white color is however on the gray side of the palette. Green is for nature, black with blue flavour is for the sea.
+![Colour palette](design-tools/colour-palette/hook-up-palette.PNG)
 
--   Green #007E2F is used for:
-    -   navigation (navigation bar and buttons) and header purposes.
-    -   Icon: bars.
--   Orange #F44B2A is used for:
-    -   navigation bar (current page)
-    -   image border colour (for images used in a page's content)
-    -   Name of companies in testimonials
-    -   "Covid-19 Safety" and "Book Now!" button background
-    -   Icons: smile, calendar (booking system), phone, mail, file-medical-alt, dumbbell, chart-line, coins, copy, phone-alt, envelope-open-text.
--   Black #190B28 is used for text colour.
+-   Green #16BD67 is used for section names.
+-   Orange #E67410 is used for verdicts given by the catch verification section.
+-   Black #010320 is used for content text colour and the navigation bar.
 -   White #EDEDF4 is used as pages' background colour.
--   Yellow #FFD166 is used for background in callout section (alert bar).
+-   Red #D20B0B is used for:
+    -   site logo & name,
+    -   navigation bar,
+    -   icons
+    -   anchor links.
 
 #### **Fonts**
 
