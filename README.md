@@ -232,6 +232,16 @@ To verify the quality of the written css document, I used the automated [W3C Mar
 | ------------- | -------------------------------------------------------------- | ------- |
 | **style.css** | [No errors](testing/w3c-css-code-validation/css-check-v01.pdf) | None.   |
 
+### **CSS code validation**
+
+To verify the quality of the written JavaScript documents, I used the automated [BeautifyTools JavaScript Validator](http://beautifytools.com/javascript-validator.php) service. The code was tested with the Direct Input tool.
+
+| Page                                                                                                                                                                                                                                                                                                                | Status                                                       | Actions |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------ | ------- |
+| **maps.js**                                                                                                                                                                                                                                                                                                         | [8 errors detected](testing/javscript/maps-js-check-v01.png) | None.   |
+| the code used for this function is from Google's documentation to allow for their API service to function adequately. From doing some research around, it appears to be a common error report, as can be seen [here](https://github.com/SpaceVim/SpaceVim/issues/1283) together with some fix solution suggestions. |
+| **fish-test.js**                                                                                                                                                                                                                                                                                                    |
+
 ### **Overall website test**
 
 I performed regular overall tests of the website by verifying that: images load correctly up, links work, navigation bar works and is responsive, contact form works as intended, text is correctly displayed, testimonial carousel works.
@@ -246,12 +256,12 @@ It was found to be adequately responsive by myself and some members of the [Code
 
 In particular:
 
--   the collapsable navigation bar functions at the designated resolution.
+-   the collapsable sections function and the layout is responsive on devices with larger resolution.
 -   The correct sections are shown/hidden depending on device sizes.
 
 ### **Social media link**
 
-The link located in the footer section functions.
+The link located in the footer section function. Of note is that the point to the global sites, as no dedicated one to the project exist as yet.
 
 ### **Contact Form**
 
