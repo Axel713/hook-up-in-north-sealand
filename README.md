@@ -30,7 +30,9 @@ As a new fisherman, I intend to also a give some field functionality that help u
 -   [Testing](#Testing)
     -   [HMTL code validation](#HTML-code-validation)
     -   [CSS code validation](#CSS-code-validation)
+    -   [JS code validation](#JS-code-validation)
     -   [Overall website test](#Overall-website-test)
+        -   [Google Lighthouse](#Google-Lighthouse)
     -   [Responsiveness](#Responsiveness)
     -   [Social media link](#Social-media-link)
     -   [Contact Form](#Contact-Form)
@@ -232,22 +234,20 @@ To verify the quality of the written css document, I used the automated [W3C Mar
 | ------------- | -------------------------------------------------------------- | ------- |
 | **style.css** | [No errors](testing/w3c-css-code-validation/css-check-v01.pdf) | None.   |
 
-### **CSS code validation**
+### **JS code validation**
 
 To verify the quality of the written JavaScript documents, I used the automated [BeautifyTools JavaScript Validator](http://beautifytools.com/javascript-validator.php) service. The code was tested with the Direct Input tool.
 
-| Page                                                                                                                                                                                                                                                                                                                | Status                                                         | Actions                                                                                                                                                |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **maps.js**                                                                                                                                                                                                                                                                                                         | [8 errors detected](testing/javscript/maps-js-check-v01.png)   | None.                                                                                                                                                  |
-| the code used for this function is from Google's documentation to allow for their API service to function adequately. From doing some research around, it appears to be a common error report, as can be seen [here](https://github.com/SpaceVim/SpaceVim/issues/1283) together with some fix solution suggestions. |
-| **fish-test.js**                                                                                                                                                                                                                                                                                                    | [17 errors detected](testing/javscript/fish-test-js-check.png) | Errors (as per report) on line 9, 45, 46, 49, 52, 56, 60, 66, 68, 71, 72, 86, 89, 94 have been reviously discussed in "maps.js" test. No action taken. |
-
-Line 92 "Don't make functions within a loop" - Not a critical issue. Nested functions do work, yet that suggestion is an iinteresting for future improvement.
-|
+| Page             | Status                                                         | Actions                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| ---------------- | -------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **maps.js**      | [8 errors detected](testing/javscript/maps-js-check-v01.png)   | None. The code used for this function is from Google's documentation to allow for their API service to function adequately. From doing some research around, it appears to be a common error report, as can be seen [here](https://github.com/SpaceVim/SpaceVim/issues/1283) together with some fix solution suggestions.                                                                                                                                                                               |
+| **fish-test.js** | [17 errors detected](testing/javscript/fish-test-js-check.png) | Errors (as per report) on line 9, 45, 46, 49, 52, 56, 60, 66, 68, 71, 72, 86, 89, 94 have been reviously discussed in "maps.js" test. No action taken. Line 92 "Don't make functions within a loop" - Not a critical issue. Nested functions do work, yet that suggestion is an interesting suggestion for future improvement. Line 60, followed suggestion by replacing "==" with "===" which is more accurate. Line 7, no action as function is indeed in a separate file from where it is initiated. |
 
 ### **Overall website test**
 
-I performed regular overall tests of the website by verifying that: images load correctly up, links work, navigation bar works and is responsive, contact form works as intended, text is correctly displayed, testimonial carousel works.
+I performed regular overall tests of the website by verifying that: images load correctly up, links work, navigation bar works and is responsive, JavaScript tools work as intended, text is correctly displayed.
+
+#### **Google Lighthouse**
 
 Various members of the Code Institute Slack Community also tested my website, contributing with input to the bug troubleshooting section.
 
