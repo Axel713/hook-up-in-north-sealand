@@ -57,15 +57,12 @@ User profiles are expected to be very varied. Being mainly targeted to foreigner
 
 ### **User Goals**
 
--   **Know why** is onsite massage good for my company.
--   **Find out** if Fit For Work I/S can fulfill my massage requirements.
--   **Know if** Fit For Work I/S helps with administration.
--   **Book** a trial session to try Fit For Work I/S's services out.
--   **Contact** the site owner.
--   **Know how** does Fit For Work I/S handle the Covid-19 situation.
--   **Look at** Fit For Work I/S's social media.
--   **Access** Fit For Work I/S's booking system.
--   **Look at** reviews of Fit For Work I/S.
+-   **Know where** I can find essential legal information for fishing in Denmark.
+-   **Know where** I can purchase a fishing licence.
+-   **Be aware** of Be aware of environmental considerations.
+-   **Find out** some examples of where I can go fishing.
+-   **Know if** I can keep the fish that I catch.
+-   **Access** social media.
 
 ### **User Stories**
 
