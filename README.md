@@ -35,7 +35,8 @@ As a new fisherman, I intend to also a give some field functionality that help u
         -   [Google Lighthouse](#Google-Lighthouse)
     -   [Responsiveness](#Responsiveness)
     -   [Social media link](#Social-media-link)
-    -   [Contact Form](#Contact-Form)
+    -   [JavaScript functions](#JavaScript-functions)
+        -   [initMap()](#initMap)
     -   [Bugs and fixes](#Bugs-and-fixes)
         -   [HMTL fixes](#HMTL-fixes)
         -   [CSS sixes](#CSS-fixes)
@@ -249,7 +250,7 @@ I performed regular overall tests of the website by verifying that: images load 
 
 #### **Google Lighthouse**
 
-Various members of the Code Institute Slack Community also tested my website, contributing with input to the bug troubleshooting section.
+The report of the testing can be found [here](testing/google-lighthouse/google-lighthouse-v01.pdf). No critical error has been found. Overall, the performance of the site can be significantly improved by re-sizing the image.
 
 ### **Responsiveness**
 
@@ -264,9 +265,11 @@ In particular:
 
 ### **Social media link**
 
-The link located in the footer section function. Of note is that the point to the global sites, as no dedicated one to the project exist as yet.
+The link located in the footer section function. Do note that they do point to the global sites, as no dedicated one to the project exist as yet.
 
-### **Contact Form**
+### **JavaScript functions**
+
+#### **initMap**
 
 -   Tried to submit an empty form and verified that an error message about the required fields appears.
 -   Tried to submit the form with an invalid email address and verified that a relevant error message appears.
