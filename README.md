@@ -101,7 +101,7 @@ The site must be pleasant to the eye whilst using effective colour contrasts to 
 #### **Colours**
 
 The selection of colour is made to inspire a blending of: sea, nature and the Danish location. To make the content easy and pleasant to read, I chose a dedicated white (with gray notes) and black (with a blue flavour). The combination white/red is in reference to the danish flag; for ease-of-read, the white color is however on the gray side of the palette. Green is for nature, black with blue flavour is for the sea.
-![Colour palette](design-tools/colour-palette/hook-up-palette.PNG)
+![Colour palette](design-tools/colour-palette/hook-up-palette.png)
 
 -   Green #16BD67 is used for section names.
 -   Orange #E67410 is used for verdicts given by the catch verification section.
@@ -123,7 +123,7 @@ For the body and footer, I have chosen [Montserrat](https://fonts.google.com/spe
 
 This site was designed according to a "mobile first" philosophy, using [balsamiq wireframes](https://balsamiq.com/wireframes/). With it, the basic structure is drawn, as well as changes in layout between mobile and desktop versions.
 
-The current wireframe file (version 04) can be found : [here](design-tools/wireframes/FitForWork_V04.bmpr).
+The current wireframe file (version 02) can be found : [here](design-tools/wireframes/hook-up-in-north-sealand_V02.bmpr).
 
 | Mobile Versions                                                                                 | Desktop Versions                                                                                         |
 | ----------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
