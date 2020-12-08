@@ -134,9 +134,7 @@ The current wireframe file (version 02) can be found : [here](design-tools/wiref
 Wireframe version historic:
 
 -   V01: original version.
--   V02: based on feedback from my mentor (Dick Vlaanderen). Reduced number of pages.
--   V03: improved the visual attractiveness of the design by giving more breathing space to the different elements.
--   V04: (current): updated book-trial page to add contact details and an image to make it more informative and attractive. Upgraded responsive-design between desktop and mobile content: only form and contact details visible in the latter.
+-   V02: based on reflection and feedback from my mentor (Dick Vlaanderen). Modified format for "Can I Take my Catch Home" section.
 
 [Back to Content](#Content)
 
